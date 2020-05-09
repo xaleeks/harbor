@@ -1,5 +1,5 @@
 ---
-title: Managing Labels
+title: Managing Harbor Labels
 weight: 70
 ---
 
