@@ -1,5 +1,5 @@
 ---
-title: Pulling and Pushing Images in the Docker Client
+title: Pulling and Pushing Images
 weight: 65
 ---
 
@@ -14,7 +14,7 @@ For information about how to add insecure registries to your Docker client, see 
 You also see this error if Harbor uses HTTPS with an unknown CA certificate. In this case, obtain the registry's CA certificate, and copy it to <code>/etc/docker/certs.d/<i>myregistrydomain.com</i>/ca.crt</code>.
 
 {{< note >}}
-Harbor only supports the Registry V2 API. You must use Docker client 1.6.0 or higher when pushing and pulling images.
+Harbor only supports the Registry V2 API. You must use Docker client 1.6.0 or higher when pushing and pulling images
 {{< /note >}}
 
 ## Pulling Images
